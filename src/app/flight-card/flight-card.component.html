@@ -1,0 +1,31 @@
+<div *ngFor="let flight of filteredFlightData">
+    <div class="card mb-4">
+        <div class="card-body">
+            <div style="display: flex;">
+                <div style="width: 100%; font-size: 13px ; display: flex ; line-height: 1.5rem ">
+                    <div>
+                        <div class="h4" style="margin-bottom: 2px; display: flex;justify-content: space-between;">
+                            <span>₹ {{flight.price*search.passenger}}</span>
+                            <span class="ml-5"> {{search.passenger}} P</span>
+                        </div>
+                        <div>
+                            <div class="h4">{{flight.from.short}} >> {{flight.to.short}}</div>
+                        </div>
+                        <div class="">{{flight.code}}</div>
+                        <div class="mt-1"><b>Depart:</b>{{flight.departTime}}</div>
+                        <div class="h4 mt-1"><b>Arrive:</b> {{flight.arrivalTime}}</div>
+                    </div>
+                </div>
+                <div>
+                    <div style="display: flex; align-items: center;  width: 40%;  flex-direction: column">
+                        <div style="height: 100px; width: 180px ">
+                            <img src={{flight.flightImg}} alt="flight_img" style="height:100%; width:100%;" />
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-infobtn btn-info "> <b>Book</b> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

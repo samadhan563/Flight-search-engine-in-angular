@@ -1,0 +1,63 @@
+<div class="card h-100  mt-4 ">
+    <div class="card-body">
+        <div
+            *ngIf="!searchOn && filteredFlightData.length === 0 && returnFlightData.length === 0;then thenBlock; else elseBlock ">
+        </div>
+        <ng-template #thenBlock>
+            <app-empty></app-empty>
+        </ng-template>
+        <ng-template #elseBlock>
+            <div
+                *ngIf="searchOn && filteredFlightData.length === 0 && returnFlightData.length === 0 ;then thenBlock; else elseBlock ">
+            </div>
+            <ng-template #thenBlock>
+                <div className="d-flex justify-content-center" style="color: red">
+                    <h3>Not Found</h3>
+                </div>
+            </ng-template>
+            <ng-template #elseBlock>
+                <div className="mb-4">
+                    <div style=" font-size: 20px; font-weight:bold; ">
+                        Available flights{{" "}}
+                        <span>
+                            <img src={{forwardArrow}} alt="arrow" className="ml-2" />
+                        </span>
+                        <div>
+                            <div *ngIf="returnStatus;then thenBlock else elseBlock"> </div>
+                            <ng-template #thenBlock>
+                                <div class="row">
+                                    <div class="col">
+                                        <div style="color: deepskyblue; font-weight: bold">
+                                            Departure flight
+                                            <p>{{filteredFlightData[0].depart}}</p>
+                                        </div>
+                                        <app-flight-card [filteredFlightData]="filteredFlightData" [search]="search">
+                                        </app-flight-card>
+                                    </div>
+
+                                    <div *ngIf="returnFlightData.length>0 && returnFlightData" className="col">
+                                        <div style="color:deepskyblue; font-weight: bold">
+                                            Return flight
+                                            <p>{{returnFlightData[0].depart}}</p>
+                                        </div>
+                                        <app-flight-card [filteredFlightData]="returnFlightData" [search]="search">
+                                        </app-flight-card>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </div>
+                        <ng-template #elseBlock>
+                            <div style="color: deepskyblue; font-weight: bold">
+                                Departure flight
+                                <p>{{filteredFlightData[0].depart}}</p>
+                            </div>
+                            <app-flight-card [filteredFlightData]="filteredFlightData" [search]="search">
+                            </app-flight-card>
+                        </ng-template>
+                    </div>
+                </div>
+            </ng-template>
+        </ng-template>
+
+    </div>
+</div>
