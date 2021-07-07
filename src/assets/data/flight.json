@@ -51,6 +51,40 @@
     }
   },
   {
+    "price": 8000,
+    "depart": "2021-06-28",
+    "arrival": "2021-06-28",
+    "departTime": "8.05 pm",
+    "arrivalTime": "9.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assetsassets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    },
+    "to": {
+      "city": "Pune-PNQ",
+      "short": "PNQ"
+    }
+  },
+  {
+    "price": 8800,
+    "depart": "2021-06-28",
+    "arrival": "2021-06-28",
+    "departTime": "8.05 pm",
+    "arrivalTime": "9.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assetsassets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Pune-PNQ",
+      "short": "PNQ"
+    },
+    "to": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    }
+  },
+  {
     "price": 3800,
     "depart": "2021-06-28",
     "arrival": "2021-06-28",
@@ -363,7 +397,7 @@
     "departTime": "6.00 pm",
     "arrivalTime": "7.20 pm",
     "code": "TY-6239",
-    "flightImg":"assets/Images/emirates.png" ,
+    "flightImg": "assets/Images/emirates.png",
     "from": {
       "city": "Hyderabad-HYD",
       "short": "HYD"
@@ -419,6 +453,40 @@
     "from": {
       "city": "Mumbai-BOM",
       "short": "BOM"
+    },
+    "to": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    }
+  },
+  {
+    "price": 5500,
+    "depart": "2021-06-29",
+    "arrival": "2021-06-29",
+    "departTime": "7.05 pm",
+    "arrivalTime": "8.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    },
+    "to": {
+      "city": "Pune-PNQ",
+      "short": "PNQ"
+    }
+  },
+  {
+    "price": 6000,
+    "depart": "2021-06-29",
+    "arrival": "2021-06-29",
+    "departTime": "8.05 pm",
+    "arrivalTime": "9.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Pune-PNQ",
+      "short": "PNQ"
     },
     "to": {
       "city": "Delhi-DEL",
@@ -500,7 +568,7 @@
     "departTime": "11.23 am",
     "arrivalTime": "12.25 pm",
     "code": "TY-6239",
-    "flightImg":"assets/Images/emirates.png" ,
+    "flightImg": "assets/Images/emirates.png",
     "from": {
       "city": "Mumbai-BOM",
       "short": "BOM"
@@ -738,7 +806,7 @@
     "departTime": "6.00 pm",
     "arrivalTime": "7.20 pm",
     "code": "TY-6239",
-    "flightImg":"assets/Images/qatar_Airways.png" ,
+    "flightImg": "assets/Images/qatar_Airways.png",
     "from": {
       "city": "Hyderabad-HYD",
       "short": "HYD"
@@ -818,6 +886,40 @@
     }
   },
   {
+    "price": 8000,
+    "depart": "2021-06-30",
+    "arrival": "2021-06-30",
+    "departTime": "8.05 pm",
+    "arrivalTime": "9.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Pune-PNQ",
+      "short": "PNQ"
+    },
+    "to": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    }
+  },
+  {
+    "price": 8000,
+    "depart": "2021-06-30",
+    "arrival": "2021-06-30",
+    "departTime": "8.05 pm",
+    "arrivalTime": "99+9*.25 pm",
+    "code": "TY-6239",
+    "flightImg": "assets/Images/Kuwait_Airways.png",
+    "from": {
+      "city": "Delhi-DEL",
+      "short": "DEL"
+    },
+    "to": {
+      "city": "Delhi-DEL",
+      "short": "PNQ"
+    }
+  },
+  {
     "price": 2500,
     "depart": "2021-06-30",
     "arrival": "2021-06-30",
@@ -858,7 +960,7 @@
     "departTime": "9.50 am",
     "arrivalTime": "11.25 am",
     "code": "TY-6239",
-    "flightImg":"assets/Images/emirates.png" ,
+    "flightImg": "assets/Images/emirates.png",
     "from": {
       "city": "Bangalore-BLR",
       "short": "BLR"
@@ -977,7 +1079,7 @@
     "departTime": "4.19 pm",
     "arrivalTime": "5.50 pm",
     "code": "TY-6239",
-    "flightImg":"assets/Images/emirates.png" ,
+    "flightImg": "assets/Images/emirates.png",
     "from": {
       "city": "Bangalore-BLR",
       "short": "BLR"
@@ -1096,7 +1198,7 @@
     "departTime": "4.35 pm",
     "arrivalTime": "5.53 pm",
     "code": "TY-6239",
-    "flightImg":"assets/Images/emirates.png" ,
+    "flightImg": "assets/Images/emirates.png",
     "from": {
       "city": "Hyderabad-HYD",
       "short": "HYD"
